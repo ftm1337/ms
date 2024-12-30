@@ -1,0 +1,1034 @@
+<!doctype html><html><meta charset="UTF-8">
+<head>
+	<title>Mint mS | Sonic Liquid-Staked via Millenium Club</title>
+	<meta name="description" content="Mint mS | Sonic Liquid-Staked via Millenium Club!">
+	<meta name="keywords" content="Lockless Protocol, Sonic, Millenium Club, Guru Network, Decentralized Finance, Kava, Liquid Staking, 1337, defi, farming, FTM1337">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="https://ftm.guru/icons/lockless.svg">
+</head>
+<style>
+
+@font-face{font-family:bold;src: url(https://ftm.guru/font/bold.ttf);}
+@font-face{ font-family:italic;src: url(https://ftm.guru/font/italic.ttf);}
+@font-face{ font-family:light;src: url(https://ftm.guru/font/light.ttf);}
+@font-face{ font-family:light_italic;src: url(https://ftm.guru/font/light_italic.ttf);}
+@font-face{ font-family:regular;src: url(https://ftm.guru/font/regular.ttf);}
+@font-face{ font-family:regular_italic;src: url(https://ftm.guru/font/regular_italic.ttf);}
+*{
+	font-family:regular;
+	scroll-behavior: smooth !important;
+	color: white;
+	transition: 0.5s ease-in;
+}
+body {
+	margin:0;
+	background-attachment: fixed;
+	color:#fff;
+	/*text-shadow: 2px 2px 2px #000;*/
+	background-image: linear-gradient( 45deg, black, #0007);
+	background-color:#01011d;
+	background-image:radial-gradient(at 75% 5%,rgba(16,201,255,.36) 0,transparent 50%);
+	background-attachment: fixed;
+	background-position: cover;
+}
+.equal-gradient {
+	background: -webkit-linear-gradient(top, #07f, #123) !important;
+	border:none;
+	color:
+}
+
+.equal-gradient-white {
+	background: -webkit-linear-gradient(top, #07f, #7ff) !important;
+	color: white !important;
+	font-family: ;
+}
+
+small {
+	color: white;
+	font-family: sans-serif;
+}
+
+.partnership, .extra {
+	width: 80%;
+	margin: auto auto;
+	text-align: center;
+}
+.partnership span {
+	padding: 10px;
+	font-family: light
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 1em;
+	text-align: center;
+	margin-top: 5px;
+}
+
+h1, h2 {
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+h1 span, h2 span {
+	background: -webkit-linear-gradient(top, #07f, #7ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h1 {
+	margin: 20px 0px 20px 0px;
+	font-size: 1.75em;
+}
+
+h2 {
+	color: white;
+	font-weight: normal;
+	margin-top: 25px;
+	font-size: 0.75em
+}
+
+.mechanism {
+	width: 75%;
+	position: relative;
+	background: -webkit-linear-gradient(183.56deg, #01011b, #001337);
+	background: -moz-linear-gradient(183.56deg, #01011b 0, #001337 100%);
+	background: linear-gradient(266.44deg, #01011b, #000d54);
+	background: #090333;
+	border: 1px solid #0089ed;
+	border-radius: 25px;
+	margin: 25px auto;
+	margin-bottom: 25px;
+	padding: 15px;
+	position: relative;
+	margin-bottom: 0;
+}
+.mechanism-fullwidth {
+	width: !important;
+	max-width: !important;
+}
+
+.mechanism .amount p {
+	color: white;
+}
+
+button,select {
+	background-color: #ea00cb;
+	padding: 10px 30px;
+	border-radius: 30px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+button.submit {
+	width: 60%;
+	margin-top: 50px;
+	padding: 6px;
+	font-size: 0.75em;
+}
+button.submit:hover{
+	box-shadow: 0px 2px 2px #0ff
+}
+button.submit:active{
+	position: relative;
+	top:2px;
+}
+
+button.btn-max {
+	background: #001337;
+	width: 35% !important;
+	margin-left: 2%;
+}
+
+.mechanism input, .nft-amtl {
+	background-color: rgba(0,0,0,0.25);
+	width: 90%;
+	border: 0;
+	font-size: 1em;
+	color: white;
+	margin-left:20px;
+	border-radius:10px
+}
+
+.input-amount-els{
+	display: grid;
+	grid-template-columns: max-content auto;
+}
+
+#nft-amt, #nft-offer {
+	font-size: 1.5em;
+	margin: 0;
+}
+
+.nft-amt-nums {
+	position: relative;
+	left: -10px;
+	max-width: max-content;
+}
+
+.nft-amtl-desc {
+	font-family: light;
+	font-size: 1em;
+}
+.nft-amtl-desc b {
+	font-family: regular;
+}
+
+.earn-stats {
+	display: grid;
+	grid-template-columns: auto auto;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#bal_tvl, #bal_apr{
+	text-decoration: 2px dotted underline aqua;
+	font-size:0.9em;
+}
+
+textarea:focus, input:focus {
+	outline: none;
+}
+
+.mechanism:before {
+	content: "";
+	border-radius: 25px;
+	position: absolute;
+	background: -webkit-linear-gradient(183.56deg, #28edec, #0564d7);
+	background: -moz-linear-gradient(183.56deg, #28edec 0, #0564d7 100%);
+	background: linear-gradient(266.44deg, #28edec, #0564d7);
+	/*
+	-webkit-animation: gradient 2s ease infinite;
+	animation: gradient 2s ease infinite;
+	box-shadow: 0 0 50px #48003d;
+	*/
+	top: -1px;
+	left: -1px;
+	bottom: -1px;
+	right: -1px;
+	z-index: -1;
+}
+
+.hr-nft {
+	border:none;
+	/*
+	background: -webkit-linear-gradient(183.56deg, #0564d7, #28edec);
+	background: -moz-linear-gradient(183.56deg, #0564d7 0, #28edec 100%);
+	background: linear-gradient(266.44deg, #0564d7, #28edec);
+	*/
+	height: 2px;
+	background: -webkit-linear-gradient(left, #0ba, #90f);
+}
+
+#p_cw{
+	font-size:1em;
+	font-family:light;
+	margin-top: 10px;
+}
+
+#nft-sel {
+	font-size: 0.8em;
+	padding: 5px
+}
+
+#cw_og {
+	text-decoration: 2px underline aqua;
+}
+
+#cw_og {
+	border-radius: 5px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+#cw_og:hover {
+	box-shadow: 0px 0px 10px 5px rgba(255,255,255,.05), 0px 0px 10px 5px rgba(255,255,255,0.05);transition: 0.3s;
+	text-decoration: 2px underline wavy aqua
+}
+
+#cw {
+	background: -webkit-linear-gradient(183.56deg, #0564d7, #28edec);
+	background: -moz-linear-gradient(183.56deg, #0564d7 0, #28edec 100%);
+	background: linear-gradient(266.44deg, #0564d7, #28edec);
+	border-radius:5px;
+	padding:4px;
+}
+
+.extra h3,.extra h4 {
+	color: white;
+	text-shadow: 0px 0px 2px #f07;
+}
+.extra h1 {
+	background: -webkit-linear-gradient(left, #035cd6, #2cfbee);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size:2.5em
+}
+
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+	overflow-y:	auto;
+	z-index:1;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+	z-index:1;
+}
+
+.popup {
+	margin: 70px auto;
+	padding: 20px;
+	background: #192133;
+	color: #fff;
+	border-radius: 20px;
+	width: 30%;
+	position: relative;
+	transition: all 5s ease-in-out;
+}
+
+.popup .close {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #789;
+}
+.popup .close:hover {
+	color: #fff;
+	cursor:	context-menu
+}
+.popup .content {
+	max-height: 30%;
+	overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+	.box{
+		width: 70%;
+	}
+	.popup{
+		width: 70%;
+	}
+}
+
+
+#content1 a {
+	color: aqua;
+}
+
+#content1 u {
+	text-decoration: dashed underline aqua
+}
+
+.analytics {
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
+
+.social {
+	text-align: center;
+}
+.social a img {
+  height: 24px;
+  margin:4px 4px 4px 0;
+}
+
+
+.prefill-num {
+	opacity: 0.75;
+	font-size: 0.5em !important;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.in-box {
+	background: rgba(0,0,0,0.5) !important;;
+	border-radius: 8px;
+	padding: 8px;
+}
+
+@media(min-width:641px) {
+
+	.mechanism {
+		width: 500px;
+	}
+	.mechanism-fullwidth {
+		width: min(800px,90%) !important;
+	}
+
+	#nft-amt, #nft-offer {
+		font-size: 2.5em;
+		margin: 0;
+	}
+
+	.nft-amt-nums {
+		position: relative;
+		left: -20px
+	}
+
+	.nft-amtl-desc {
+		font-family: light;
+		font-size: 3em;
+	}
+
+	.nft-amtl-desc b {
+		font-family: regular;
+	}
+
+	.earn-stats {
+		grid-template-columns: auto auto;
+	}
+
+
+	.mechanism input, .nft-amtl {
+		font-size: 1.5em;
+	}
+
+	button.submit {
+		margin-top: 50px;
+		padding: 10px;
+		font-size: 1em;
+	}
+
+	h1 {
+		margin-top: 100px;
+		font-size: 4em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	.prefill-num {
+		opacity: 0.5;
+		font-size: 1em !important;
+	}
+
+	#bal_tvl, #bal_apr{
+		font-size:revert;
+	}
+
+}
+
+
+
+
+
+#scroll-container {
+  background: black;
+  overflow: hidden;
+	padding: 5px;
+}
+
+#scroll-text {
+  text-align: right;
+	font-family: light;
+	width: max-content;
+
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+
+  -moz-animation: scroll-animation 30s linear infinite;
+  -webkit-animation: scroll-animation 30s linear infinite;
+  animation: scroll-animation 30s linear infinite;
+}
+
+#scroll-text span {
+  margin:10px;
+}
+/* for Firefox */
+@-moz-keyframes scroll-animation {
+  from { -moz-transform: translateX(-100%); }
+  to { -moz-transform: translateX(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes scroll-animation {
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes scroll-animation {
+  to {
+	-moz-transform: translateX(-100%);
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+  }
+  from {
+	-moz-transform: translateX(10%);
+	-webkit-transform: translateX(10%);
+	transform: translateX(10%);
+  }
+}
+
+#scroll-text:hover{
+	animation: none;
+	transform: revert;
+}
+
+
+
+
+.arrow-content {
+  position: relative;
+  margin-left: 15px;
+}
+
+@media(min-width:641px) {
+	.arrow-content {
+  		margin-left: 35px;
+  	}
+}
+
+
+.topnav {
+	display:grid;
+	grid-template-columns:auto;
+	margin:0;
+	padding:2vh 1vw;
+	position: sticky;
+	top: 0;
+	background:linear-gradient(to bottom, rgba(0,0,16,0.8), rgba(0,19,55,0.8));
+	z-index:0;
+}
+.topnav div:first-child {
+	font-size: 2em;
+	font-family: light;
+}
+.topnav div:nth-child(2) p {
+	text-align: left;
+	margin:auto 1vw;
+}
+.topnav a {
+	font-family: light;
+	text-decoration: none;
+}
+
+
+
+.amount-sold, .amount-bought {
+	font-size: 2em;
+}
+.amount-sold b, .amount-bought b {
+	font-family: regular;
+}
+
+.amount-sold input, .amount-bought input {
+	font-family: light;
+}
+
+
+
+
+img.bigthumb {
+	width: 60px;
+	height: 60px;
+	display: inline;
+	vertical-align: middle;
+}
+
+.labels span {
+	background: #333;
+	border-radius: 10px;
+	padding: 0px 5px;
+	font-family: light
+}
+
+.allpools-row:hover {
+	background: rgba(0,200,200,0.2);
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+#topnav-mkts {
+	display: none;
+}
+
+
+
+.subnav {
+	text-align: center;
+	background: background: -webkit-linear-gradient(183.56deg, #28edec, #0564d7);
+	background: -moz-linear-gradient(183.56deg, #28edec 0, #0564d7 100%);
+	background: linear-gradient(266.44deg, #28edec, #0564d7);
+	width: max-content;
+	margin: auto;
+	margin-top: 10px;
+	padding: 6px 2px;
+	border-radius: 10px;
+	display:grid;
+	grid-template-columns:max-content auto;
+}
+
+.subnav a {
+	/*! font-size: 1.25em;*/
+	/*! background: #001337; */
+	text-decoration: none;
+	/*! margin: 10px 2px; */
+	/*! border-radius: 10px; */
+	/*! padding: 10px 10px; */
+	color: #fff;
+}
+
+.subnav-link {
+	min-width: 100px;
+	font-family: light;
+	/*! font-size: 1.25em;*/
+	background: #000;
+	text-decoration: none;
+	margin: 4px 2px;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+@media(min-width:641px) {
+	.topnav {
+		display:grid;
+		grid-template-columns:auto max-content;
+	}
+
+	.amount-sold input, .amount-bought input {
+		font-size: 2em;
+	}
+
+	.amount-sold b, .amount-bought b {
+		font-family: regular;
+	}
+
+	.mechanism .input-amount img.bigthumb {
+		width: 100px;
+		height: 100px;
+	}
+	.subnav {
+		grid-template-columns:auto auto max-content auto auto;
+	}
+	.subnav-link {
+		margin: -2px 2px;
+	}
+}
+</style>
+</head>
+<body>
+
+
+	<div id="note" class="overlay">
+		<div class="popup">
+			<a class="close" href="#">&times;</a>
+			<div class="content" id="content1">
+				w31c0m3 fren!<br>trade well :)
+			</div>
+		</div>
+	</div>
+
+	<div class="topnav">
+		<div align="left">
+			<a href="https://eliteness.network/e3">
+				<img src="https://ftm.guru/icons/lockless.svg" style="vertical-align: middle;" height="32px">
+			</a>
+			<a href="https://eliteness.network">
+				mS
+			</a>
+		</div>
+		<div align="right">
+			<p id="p_cw"><span id="cw" onclick="cw()">Hello 👋 <span id="cw_og">Connect wallet!</span></p>
+		</div>
+		<div align="left" class="topnav-mkts" id="topnav-mkts">
+		</div>
+	</div>
+	<div class="subnav" style="display:none">
+		<div class="subnav-link"><a href="#a-trade">Trade</a></div>
+		<div class="subnav-link"><a href="#a-order">Orderbook</a></div>
+		<div class="subnav-link"><a href="#a-addlp">Liquidity</a></div>
+		<div class="subnav-link"><a href="#a-posit">Positions</a></div>
+		<div class="subnav-link"><a href="https://eliteness.network/fertilizer">Farm & Earn</a></div>
+	</div>
+
+
+
+
+
+	<div class="partnership">
+		<h1 id="a-trade"><span style="font-size:3em">mS</span></h1>
+		<h2>Unleash Liquid-Staked Sonic with Millenium Club</h2>
+	</div>
+	<br>
+	<div class="mechanism">
+		<div class="input-amount">
+			<br>
+			<div class="input-amount-els">
+				<div onclick="pairSelectionMenu()">
+					<img class="bigthumb" id="logo-sold" src="https://ftm.guru/icons/ftm.svg"/>
+				</div>
+				<div class="amount-area">
+					<div class="prefill-num">
+						<span id="amount-sold-balance">0.000000 available</span>
+					</div>
+					<div class="amount-sold" id="token-sold">
+						<input value="1" placeholder="Sell Amount" id="amount-sold-input">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="margin-top: -25px;" align="center">
+			<button class="submit equal-gradient" onclick="mint()"><span id="claim-offer">Mint mS</span></button>
+			<br><br>
+		</div>
+		<div align="center" id="amount-swtoken-balance" style="font-family:light">
+		Current Balance: 0.00 mS
+		</div>
+	</div>
+	<div class="analytics" style="display:none">
+		<a class="equal-gradient-white">Mint</a>
+		<a href="staking">Stake</a>
+		<a href="https://dune.com/eliteness/ethena" target="_blank">Analytics</a>
+		<a href="https://thena.fi/swap" target="_blank">Trade</a>
+		<a href="https://ftm.guru/docs/eTHENA/eTHENA" target="_blank">Docs</a>
+	</div>
+
+	<br>
+	<div align="center" style="font-family:light" id="tvl-usd">
+		TVL: <i>Loading...</i>
+	</div>
+
+	<div class="extra" style="display:none">
+		<br><br>
+		<!--
+		<h3><a href="https://eliteness.network">Powered by Guru Network</a></h3>
+		-->
+		<div class="social">
+			<a target="_blank" href="https://discord.gg/QpyfMarNrV"><img src="https://ftm.guru/icons/discord.svg"></a>
+			<a target="_blank" href="https://twitter.com/FTM1337"><img src="https://ftm.guru/icons/twitter.svg"></a>
+			<a target="_blank" href="https://dune.com/e3/fees"><img src="https://ftm.guru/icons/dune.svg"></a>
+			<a target="_blank" href="https://defillama.com/protocol/e3"><img src="https://ftm.guru/icons/defillama.svg"></a>
+			<a target="_blank" href="https://coinmarketcap.com/exchanges/e3"><img src="https://ftm.guru/icons/cmc.svg"></a>
+		</div>
+		<!--
+		<small id="stats">
+		</small>
+		<h1><span></span></h1>
+		<br><br>
+		-->
+	</div>
+
+
+
+
+	<br><br>
+	<h2>Powered by Millenium Club</h2>
+	<div style="display:none" style="font-size:4em" align="center">
+		<img src="https://ftm.guru/icons/1f9be.svg" height="64px">, <img src="https://ftm.guru/icons/1f680.svg" height="64px">
+	</div>
+	<div class="social">
+		<a target="_blank" href="https://discord.gg/QpyfMarNrV"><img src="https://ftm.guru/icons/discord.svg"></a>
+		<a target="_blank" href="https://twitter.com/FTM1337"><img src="https://ftm.guru/icons/twitter.svg"></a>
+		<a target="_blank" href="https://dune.com/e3/fees"><img src="https://ftm.guru/icons/dune.svg"></a>
+		<a target="_blank" href="https://defillama.com/protocol/e3"><img src="https://ftm.guru/icons/defillama.svg"></a>
+		<a target="_blank" href="https://coinmarketcap.com/exchanges/e3"><img src="https://ftm.guru/icons/cmc.svg"></a>
+		<a target="_blank" href="https://ftm.guru/docs"><img src="https://ftm.guru/icons/docs.svg"></a>
+	</div>
+	<br><br>
+
+
+
+
+
+
+
+
+<!-- IGNORE BELOW BLOCK : DEV LOGS -->
+		<div style="display:none">
+		<span id="cw_m"></span>
+		<div id="connect">
+			Please connect your web3 wallet.
+			<br><br>
+			<button onclick="cw()" id="btn-connect">Connect</button>
+		</div>
+		<div id="switch">
+			<b id="btn-switch" onclick="cw()">
+				<img src="img/wallet.svg" width="24px" style="position:relative;top:4px">
+				<span id="cw"></span>
+			</b>
+			<br>Balance: <b style="font-family:bold" id="usb-mtv">?</b> <img class="imgmtv" src="https://ftm.guru/icons/eth.svg" width="20px" style="position:relative;top:4px">USDC<br>
+			<span style="font-size:0.9em">Wallet at <img class="imgmtv" src="https://ftm.guru/icons/ftm.svg" width="20px" style="position:relative;top:4px">Sonic. <a href="index.html" style="color:aqua;font-family:bold">Change?</a></span>
+		</div>
+	</div>
+<!-- IGNORE ABOVE BLOCK : DEV LOGS -->
+
+</body>
+<script src="https://ftm.guru/ethers-5.2.umd.min.js"></script>
+<script>
+RPC_URL = "https://rpc.ankr.com/sonic";
+CHAINID = 146;
+CHAIN_NAME = "Sonic";
+CHAIN_GAS = "S";
+DECIMAL = 18;
+EXPLORE = "https://sonicscan.org/";
+EXPLORT = EXPLORE + "tx/";
+EXPLORA = EXPLORE + "address/";
+TVLGURU = "0x2696f94f11dfF0d77875E2652FCdB537274B9CE7";
+NATIVE = "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee";
+NATIVE_NAME = "S";
+NATIVE_LOGO = "https://ftm.guru/icons/sonic.png";
+SWTOKEN = "0x017B4aE0DdC12EeC322afC429F495bA4028AC539";
+SWTOKEN_NAME = "mS";
+SWTOKEN_LOGO = "https://ftm.guru/icons/lockless.svg";
+SWTOKEN_MINTER = "0x8b2d8ebb49f1133522e669166e605799dc445f6e";
+
+
+function $(_) {return document.getElementById(_);}
+let provider= {};
+let signer= {};
+window.addEventListener('load',async function()
+{
+	console.log("waitin for 3 secs..");
+	$("cw_m").innerHTML = "Connecting.. Please wait."
+	setTimeout(async () => { await basetrip(); }, 3000);
+}, false);
+
+
+
+
+async function basetrip()
+{
+	if(!(window.ethereum)){$("cw_m").innerHTML = "Wallet wasn't detected!";console.log("Wallet wasn't detected!");notice("<h3>Wallet wasn't detected!</h3>Please make sure that your device and browser have an active Web3 wallet like MetaMask installed and running.<br><br>Visit <a href='https://metamask.io' target='_blank'>metamask.io</a> to install MetaMask wallet.");provider = new ethers.providers.JsonRpcProvider(RPC_URL); await dexstats();return}
+	else if(!Number(window.ethereum.chainId)==CHAINID){$("cw_m").innerHTML = "Wrong network! Please Switch to "+CHAINID;provider = new ethers.providers.Web3Provider(window.ethereum);await dexstats();notice("<h3>Wrong network!</h3>Please Switch to Chain #"+CHAINID+"<btr"+ CHAIN_NAME+ "</u> Blockchain.");}
+	else if(//typeOf window.ethereum == Object &&Number(window.ethereum.chainId)
+		Number(window.ethereum.chainId)==CHAINID)
+	{
+		console.log("Recognized Ethereum Chain:", window.ethereum.chainId,CHAINID);
+		provider = new ethers.providers.Web3Provider(window.ethereum)
+		signer = provider.getSigner();
+		if(!(window.ethereum.selectedAddress==null)){console.log("Found old wallet:", window.ethereum.selectedAddress);cw();}
+		else{console.log("Didnt find a connected wallet!");cw();}
+		//chkAppr(tokes[1][0])
+	}
+	else //if(Number(window.ethereum.chainId)==CHAINID)
+	{
+		console.log("Couldn't find Ethereum Provider - ",CHAINID,window.ethereum.chainId)
+		if((typeof Number(window.ethereum.chainId) == "number")){$("cw_m").innerHTML = "Wrong network! Switch from " + Number(window.ethereum.chainId)+" to "+CHAINID}
+		provider = new ethers.providers.JsonRpcProvider(RPC_URL);
+		signer = provider.getSigner()
+		$("connect").innerHTML=`Wallet not found.<br><br><button onclick="window.location.reload()" id="btn-connect">Retry?</button>`;
+	}
+	if(Number(window.ethereum.chainId) != null &&(window.ethereum.chainId!=CHAINID))
+	{
+		await window.ethereum.request({
+    		method: "wallet_addEthereumChain",
+    		params: [{
+        		chainId: "0x"+(CHAINID).toString(16),
+        		rpcUrls: [RPC_URL],
+        		chainName: CHAIN_NAME,
+        		nativeCurrency: {
+            		name: CHAIN_GAS,
+            		symbol: CHAIN_GAS,
+            		decimals: 18
+        		},
+        		blockExplorerUrls: [EXPLORE]
+    		}]
+		});
+		window.location.reload
+	}
+	//DrefreshFarm()
+	//arf()
+	cw()
+	dexstats()
+}
+
+
+
+/*
+function fornum(n,d)
+{
+	_n=(Number(n)/10**Number(d));
+	n_=_n;
+	if(_n>1e18){n_=(_n/1e18).toFixed(2)+" Qt."}
+	else if(_n>1e15){n_=(_n/1e15).toFixed(2)+" Qd."}
+	else if(_n>1e12){n_=(_n/1e12).toFixed(2)+" Tn."}
+	else if(_n>1e9){n_=(_n/1e9).toFixed(2)+" Bn."}
+	else if(_n>1e6){n_=(_n/1e6).toFixed(2)+" Mn."}
+	else if(_n>1e3){n_=(_n/1e3).toFixed(2)+" Th."}
+	else if(_n>0){n_=(_n/1e0).toFixed(5)+""}
+	return(n_);
+}
+*/
+function fornum(n,d)
+{
+	_n=(Number(n)/10**Number(d));
+	n_=_n;
+	if(_n>1e18){n_=(_n/1e18).toFixed(3)+"Qt"}
+	else if(_n>1e15){n_=(_n/1e15).toFixed(3)+"Qd"}
+	else if(_n>1e12){n_=(_n/1e12).toFixed(3)+"T"}
+	else if(_n>1e9){n_=(_n/1e9).toFixed(3)+"B"}
+	else if(_n>1e6){n_=(_n/1e6).toFixed(3)+"M"}
+	else if(_n>1e3){n_=(_n/1e3).toFixed(3)+"K"}
+	else if(_n>1e0){n_=(_n/1e0).toFixed(5)+""}
+	else if(_n>0.0){n_=(_n/1e0).toFixed(8)+""}
+	return(n_);
+}
+
+async function cw()
+{
+	let cs = await cw2(); cs?console.log("Good to Transact"):cw2();
+	cw2();
+}
+async function cw2()
+{
+	if(!(window.ethereum)){$("cw_m").innerHTML="Metamask not detected! Trying a refresh";console.log("Metamask not found!");window.location.reload();return(0)}
+	if(!(Number(window.ethereum.chainId)==CHAINID)){$("cw_m").innerHTML="Wrong network detected! Please switch to chain ID", CHAINID, "and refresh this page.";return(0)}
+	if(typeof provider == "undefined"){$("cw_m").innerHTML="Provider not detected! Trying a refresh";console.log("Provider not found!");window.location.reload();return(0)}
+	/*
+	if(!
+		(isFinite(Number(accounts[0])))
+		|| (isFinite(Number(window.ethereum.selectedAddress)))
+	){console.log("NAAAAAAAAAAAAAAAAA");window.location.reload();}
+	*/
+
+	//004
+	window.ethereum
+	.request({ method: 'eth_requestAccounts' })
+	.then(r=>{console.log("004: Success:",r);})	//re-curse to end curse, maybe..
+	.catch((error) => {	console.error("004 - Failure", r, error); });
+
+
+	//005
+	const accounts = await window.ethereum.request({ method: 'eth_accounts' });
+	if(Number(accounts[0])>0){console.log("005: Success - ", accounts)}
+	else{console.log("005: Failure", accounts)}
+
+
+	/*006
+	const en6 = await window.ethereum.enable()
+	if(Number(en6[0]) > 0){console.log("006 - Success",en6)}
+	else{console.log("006 - Failure", en6)}
+	*/
+
+
+	/*003
+	try {
+      console.log("attempting cw()")
+      const addresses = await provider.request({ method: "eth_requestAccounts" });
+      console.log("addresses:",addresses)
+    } catch (e) {
+      console.log("error in request", e);
+      window.location.reload(true);
+    }
+    */
+
+    //002
+    //try{await provider.send("eth_requestAccounts", []);console.log("CWE:",e);}//await window.ethereum.enable();
+	//catch(e){console.log("CWE:",e);window.location.reload(true)}
+	console.log("doing the paints")
+	$("cw").innerHTML= (window.ethereum.selectedAddress).substr(0,10) +"..."+(window.ethereum.selectedAddress).substr(34);
+	if(window.ethereum.chainId==250) (new ethers.Contract("0x14ffd1fa75491595c6fd22de8218738525892101",["function getNames(address) public view returns(string[] memory)"],provider)).getNames(window.ethereum.selectedAddress).then(rn=>{if(rn.length>0){$("cw").innerHTML="hi, <span style='/*font-family:bold;font-size:1.337em*/'>"+rn[0]+"</span> 👋"}else{$("cw").innerHTML= (window.ethereum.selectedAddress).substr(0,10) +"..."+(window.ethereum.selectedAddress).substr(34);}})
+	$("cw_m").innerHTML=""
+	$("connect").style.display="none";
+	$("switch").style.display="block";
+	//farm_1_f_chappro()
+	gubs();
+	return(1);
+}
+function fornum2(n,d)
+{
+	_n=(Number(n)/10**Number(d));
+	n_=_n;
+	if(_n>1e18){n_=(_n/1e18).toFixed(2)+" Quintillion"}
+	else if(_n>1e15){n_=(_n/1e15).toFixed(2)+" Quadrillion"}
+	else if(_n>1e12){n_=(_n/1e12).toFixed(2)+" Trillion"}
+	else if(_n>1e9){n_=(_n/1e9).toFixed(2)+" Billion"}
+	else if(_n>1e6){n_=(_n/1e6).toFixed(2)+" Million"}
+	else if(_n>1e3){n_=(_n/1e3).toFixed(2)+" Thousand"}
+	else if(_n>1e0){n_=(_n/1e0).toFixed(4)+""}
+	else if(_n>0){n_=(_n).toFixed(8)+""}
+	return(n_);
+}
+
+
+function notice(c) {
+	window.location = "#note"
+	$("content1").innerHTML = c
+}
+
+
+
+async function dexstats() {
+	_TVLGURU_ = new ethers.Contract(TVLGURU, ["function coinusd() public view returns(uint)"], provider);
+	_SWTOKEN_ = new ethers.Contract(SWTOKEN, ["function balanceOf(address) public view returns(uint)","function totalSupply() public view returns(uint)"], provider);
+	_ds = await Promise.all([
+		_TVLGURU_.coinusd(),
+		_SWTOKEN_.totalSupply()
+	])
+	$("tvl-usd").innerHTML = "TVL: $" + (Number(_ds[0])/1e18 * Number(_ds[1])/1e18).toLocaleString(undefined,{maximumFractionDigits:2});
+
+}
+
+async function gubs() {
+	_SWTOKEN_ = new ethers.Contract(SWTOKEN, ["function balanceOf(address) public view returns(uint)","function totalSupply() public view returns(uint)"],signer);
+	_ubs = await Promise.all([
+		provider.getBalance(window.ethereum.selectedAddress),
+		_SWTOKEN_.balanceOf(window.ethereum.selectedAddress)
+	]);
+	$("amount-sold-balance").innerHTML = (Number(_ubs[0])/1e18).toLocaleString(undefined,{maximumFractionDigits:2}) + " " + NATIVE_NAME + " available";
+	$("amount-swtoken-balance").innerHTML = "Current Balance: " + (Number(_ubs[1])/1e18).toLocaleString(undefined,{maximumFractionDigits:2}) + " " + SWTOKEN_NAME;
+}
+
+async function quote() {
+	return;
+}
+
+async function mint() {
+	_oamt = $("amount-sold-input").value;
+	if(!isFinite(_oamt)){notice(`Invalid ${NATIVE_NAME} amount!`); return;}
+	_oamt = BigInt(_oamt * 1e18)
+
+
+	notice(`
+		<h3>Order Summary</h3>
+		<b>Minting ${SWTOKEN_NAME}</b><br>
+
+		<img style='height:20px;position:relative;top:4px' src="${NATIVE_LOGO}"> ${NATIVE_NAME} Locked: <b>${fornum(_oamt,18)}</b><br>
+		<img style='height:20px;position:relative;top:4px' src="${SWTOKEN_LOGO}"> ${SWTOKEN_NAME} Expected: <b>${fornum(_oamt,18)}</b><br>
+
+		<h4><u><i>Please Confirm this transaction in your wallet!</i></u></h4>
+	`);
+	let _tr = await signer.sendTransaction({from:window.ethereum.selectedAddress, to:SWTOKEN_MINTER, value: _oamt});
+	console.log(_tr);
+	notice(`
+		<h3>Order Submitted!</h3>
+		<br><h4>Minting ${SWTOKEN_NAME}</h4>
+		<img style='height:20px;position:relative;top:4px' src="${NATIVE_LOGO}"> ${NATIVE_NAME} Locked: <b>${fornum(_oamt,18)}</b><br>
+		<img style='height:20px;position:relative;top:4px' src="${SWTOKEN_LOGO}"> ${SWTOKEN_NAME} Expected: <b>${fornum(_oamt,18)}</b><br>
+		<br>
+		<h4><a target="_blank" href="${EXPLORE}/tx/${_tr.hash}">View on Explorer</a></h4>
+	`);
+	_tw = await _tr.wait();
+	console.log(_tw)
+	notice(`
+		<h3>Order Completed!</h3>
+		<img style='height:20px;position:relative;top:4px' src="${SWTOKEN_LOGO}"> Minted <b>${fornum(_oamt,18)}</b> ${SWTOKEN_NAME}
+		<br><br>
+		<h4><a target="_blank" href="${EXPLORE}/tx/${_tr.hash}">View on Explorer</a></h4>
+	`);
+	gubs();
+}
+
+</script>
+</html>
